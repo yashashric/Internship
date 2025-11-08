@@ -1,6 +1,0 @@
-# Ignore heavy stuff
-echo "*.pth" >> .gitignore
-echo "venv/" >> .gitignore
-echo "__pycache__/" >> .gitignore
-echo "results/" >> .gitignore
-vvvv
