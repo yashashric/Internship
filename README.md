@@ -1,11 +1,11 @@
--Models Used:
-UNet – Encoder–decoder architecture with skip connections for precise pixel segmentation.
-SegNet – VGG-based encoder–decoder network using pooling indices for smoother feature recovery.
-DeepLabV3 – ResNet backbone with atrous spatial pyramid pooling (ASPP) for detailed boundary detection.
+A. Models Used:
+1. UNet – Encoder–decoder architecture with skip connections for precise pixel segmentation.
+2. SegNet – VGG-based encoder–decoder network using pooling indices for smoother feature recovery.
+3. DeepLabV3 – ResNet backbone with atrous spatial pyramid pooling (ASPP) for detailed boundary detection.
 
--Dataset Link: https://www.kaggle.com/datasets/khushiipatni/satellite-image-and-mask/data
+B. Dataset Link: https://www.kaggle.com/datasets/khushiipatni/satellite-image-and-mask/data
 
--How to Run:
+C. How to Run:
 1. Download dataset
 2. Make changes in train.py for dataset path
 3. Make changes in test.py for inferencing
