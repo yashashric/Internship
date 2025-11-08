@@ -6,7 +6,11 @@ DeepLabV3 – ResNet backbone with atrous spatial pyramid pooling (ASPP) for det
 -Dataset Link: https://www.kaggle.com/datasets/khushiipatni/satellite-image-and-mask/data
 
 -How to Run:
-     pip install -r requirements.txt        # Install dependencies  
-     python3 train.py                       # Train all 3 models (UNet, SegNet, DeepLabV3)  
-     python3 test.py                        # Compare April vs May and generate results  
+1. Download dataset
+2. Make changes in train.py for dataset path
+3. Make changes in test.py for inferencing
+4. On terminal
+   - pip install -r requirements.txt        # Install dependencies  
+   - python3 train.py                       # Train all 3 models (UNet, SegNet, DeepLabV3)  
+   - python3 test.py                        # Compare April vs May and generate results  
      
