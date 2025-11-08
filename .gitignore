@@ -1,0 +1,6 @@
+echo "*.pth" >> .gitignore
+echo "__pycache__/" >> .gitignore
+echo ".venv/" >> .gitignore
+echo "venv/" >> .gitignore
+echo "results/" >> .gitignore
+echo ".DS_Store" >> .gitignore
